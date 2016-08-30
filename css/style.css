@@ -1,0 +1,74 @@
+/*#####################        header           ################################*/
+
+header {
+    padding-bottom: 40px;
+    background-image: url("../img/backgroungrokivo.jpg");
+    background-repeat: no-repeat;
+    background-size: 1200%;
+    padding-bottom: 30%;
+}
+header h1 {
+    border-bottom: solid white 1px;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 2em;
+    color: white;
+    margin-left: 10px;
+}
+header p {
+    margin-top: 25px;
+    color: white;
+    margin-left: 10px;
+}
+header a {
+    color: green;
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+.nav {
+    float: right;
+    background-color: transparent !important;
+}
+.nav1 {
+    margin-right: 10% !important;
+}
+
+/*################ body #############################*/
+
+
+/*################footer #############################*/
+
+footer {
+    background-color: grey;
+    display: flex;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+}
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+}
+.col-md-10 {
+    width: 83.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+footer .social-list {
+    text-align: left;
+}
+/*################@media for responsive design #############################*/
+
+@media screen and (min-width: 880px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 20%;
+    }
+}
